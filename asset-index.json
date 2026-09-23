@@ -1,0 +1,71 @@
+{
+  "project": "深圳前海自然博物馆",
+  "sourceBlend": "source/blender/Qianhai_Nature_Museum.blend",
+  "sourceSHA256": "bd4f0945545edf7d6a5b41e50a108282566f904cc01574b840fad1dd6d7d539c",
+  "sourceMaterials": "source/blender/Museum_Materials.blend",
+  "designScreens": [
+    "design-reference/01-首页.png",
+    "design-reference/02-整体介绍.png",
+    "design-reference/03-外部结构.png",
+    "design-reference/04-细节展示.png",
+    "design-reference/05-价值展示.png",
+    "design-reference/06-收尾页.png"
+  ],
+  "models": {
+    "desktop": "public/assets/museum-desktop.glb",
+    "mobile": "public/assets/museum-mobile.glb"
+  },
+  "sourceObjectManifest": "work/source-objects.json",
+  "metrics": {
+    "desktop": {
+      "bytes": 5565756,
+      "meshes": 21,
+      "nodes": 26,
+      "materials": 12,
+      "animations": 0,
+      "triangles": 455467,
+      "roots": [
+        "Roof_Root",
+        "Skylight_Root",
+        "Facade_Root",
+        "Base_Root",
+        "Landscape_Root"
+      ]
+    },
+    "mobile": {
+      "bytes": 4180260,
+      "meshes": 21,
+      "nodes": 26,
+      "materials": 12,
+      "animations": 0,
+      "triangles": 323755,
+      "roots": [
+        "Roof_Root",
+        "Skylight_Root",
+        "Facade_Root",
+        "Base_Root",
+        "Landscape_Root"
+      ]
+    }
+  },
+  "coordinates": {
+    "source": "Z-up meters",
+    "web": "Y-up meters",
+    "runtimeScale": 0.01,
+    "front": "+Z",
+    "origin": "building ground center"
+  },
+  "materials": {
+    "source": "Original PBR factors retained; no external source textures. Existing UVs retained; generated box UVs for source meshes without UVs.",
+    "water": "Realtime wave normal shader replaces Blender procedural water."
+  },
+  "hierarchy": "Original source has no parent relationships or animations. Runtime semantic layers contain static material batches. Original names and transforms are retained in the manifest; source .blend is unmodified.",
+  "atmosphere": {
+    "image": "public/assets/coastal-sky.webp",
+    "provenance": "Sky-and-mountain-only crop from user-provided reference 2; not another building."
+  },
+  "limitations": [
+    "Approximate exterior model from prior stage, not measured architecture.",
+    "Exterior separation is an illustrative envelope study, not a construction sequence."
+  ]
+}

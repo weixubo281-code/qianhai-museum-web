@@ -1,0 +1,43 @@
+{
+  "url": "http://127.0.0.1:4187",
+  "errors": [],
+  "checks": [
+    {
+      "width": 1440,
+      "chapter": 1,
+      "model": "desktop",
+      "meshes": 21
+    },
+    {
+      "width": 1440,
+      "chapter": 3,
+      "model": "desktop",
+      "meshes": 21
+    },
+    {
+      "width": 1440,
+      "chapter": 6,
+      "model": "desktop",
+      "meshes": 21
+    },
+    {
+      "width": 390,
+      "chapter": 1,
+      "model": "mobile",
+      "meshes": 21
+    },
+    {
+      "width": 390,
+      "chapter": 3,
+      "model": "mobile",
+      "meshes": 21
+    },
+    {
+      "width": 390,
+      "chapter": 6,
+      "model": "mobile",
+      "meshes": 21
+    }
+  ],
+  "passed": true
+}

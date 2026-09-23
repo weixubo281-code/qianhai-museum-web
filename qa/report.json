@@ -1,0 +1,1292 @@
+{
+  "date": "2026-09-23T02:01:27.268Z",
+  "checks": [
+    "Desktop GLB loads with all five semantic roots",
+    "All model meshes retain UV coordinates",
+    "Correct converted metric scale",
+    "Desktop chapter 1",
+    "Desktop chapter 1 document width",
+    "Desktop chapter 2",
+    "Desktop chapter 2 document width",
+    "Desktop chapter 3",
+    "Desktop chapter 3 document width",
+    "Desktop chapter 4",
+    "Desktop chapter 4 document width",
+    "Desktop chapter 5",
+    "Desktop chapter 5 document width",
+    "Desktop chapter 6",
+    "Desktop chapter 6 document width",
+    "Free exploration enters",
+    "Drag rotates real model",
+    "Reset restores angle",
+    "Escape exits exploration",
+    "Reverse scroll 5",
+    "Assembled outside structure 5",
+    "Reverse scroll 4",
+    "Assembled outside structure 4",
+    "Reverse scroll 3",
+    "Reverse scroll 2",
+    "Assembled outside structure 2",
+    "Reverse scroll 1",
+    "Assembled outside structure 1",
+    "Nav scrolls to architecture",
+    "Exterior separation only known layers",
+    "Assembly control restores original coordinates",
+    "Separation control works",
+    "Material focus moves camera",
+    "Detail zoom state",
+    "Value card opens real content",
+    "Dialog contains matching story",
+    "Dialog closes",
+    "Scroll has continuous fractional camera states",
+    "Reverse wheel stable",
+    "Phone loads mobile LOD",
+    "Phone 1 no horizontal overflow",
+    "Phone 1 title readable",
+    "Phone 1 controls within viewport",
+    "Phone 1 title above 3D",
+    "Phone 2 no horizontal overflow",
+    "Phone 2 title readable",
+    "Phone 2 controls within viewport",
+    "Phone 2 title above 3D",
+    "Phone 3 no horizontal overflow",
+    "Phone 3 title readable",
+    "Phone 3 controls within viewport",
+    "Phone 3 title above 3D",
+    "Phone 4 no horizontal overflow",
+    "Phone 4 title readable",
+    "Phone 4 controls within viewport",
+    "Phone 4 title above 3D",
+    "Phone 5 no horizontal overflow",
+    "Phone 5 title readable",
+    "Phone 5 controls within viewport",
+    "Phone 6 no horizontal overflow",
+    "Phone 6 title readable",
+    "Phone 6 controls within viewport",
+    "Phone 6 title above 3D",
+    "Phone navigation works",
+    "Phone menu closes after choice",
+    "Native touch scroll moves through chapters",
+    "Small phone no overflow",
+    "Failure leaves readable heading and poster",
+    "Retry recovers model",
+    "No-WebGL fallback preserves full content",
+    "Reduced motion and deep link",
+    "No uncaught JS errors"
+  ],
+  "errors": [],
+  "desktop": [
+    {
+      "loaded": true,
+      "active": 0,
+      "progress": 0,
+      "raw": 0,
+      "error": null,
+      "failed": false,
+      "frames": 3,
+      "quality": "desktop",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 0,
+      "adaptiveDPR": 1,
+      "drawCalls": 118,
+      "camera": [
+        0,
+        0.3916348705211254,
+        1.2480565256582041
+      ],
+      "stage": {
+        "x": 0,
+        "y": 261,
+        "width": 1440,
+        "height": 558,
+        "top": 261,
+        "right": 1440,
+        "bottom": 819,
+        "left": 0
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    },
+    {
+      "loaded": true,
+      "active": 1,
+      "progress": 1,
+      "raw": 1,
+      "error": null,
+      "failed": false,
+      "frames": 55,
+      "quality": "desktop",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 58,
+      "adaptiveDPR": 1,
+      "drawCalls": 118,
+      "camera": [
+        0.9486485926766247,
+        0.6791467985353509,
+        1.248221832469243
+      ],
+      "stage": {
+        "x": 460.796875,
+        "y": 180,
+        "width": 979.1875,
+        "height": 648,
+        "top": 180,
+        "right": 1439.984375,
+        "bottom": 828,
+        "left": 460.796875
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    },
+    {
+      "loaded": true,
+      "active": 2,
+      "progress": 2,
+      "raw": 2,
+      "error": null,
+      "failed": false,
+      "frames": 112,
+      "quality": "desktop",
+      "explosion": 1,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 60,
+      "adaptiveDPR": 1,
+      "drawCalls": 118,
+      "camera": [
+        0.22710169070393063,
+        1.9925125585102694,
+        0.8516313401397398
+      ],
+      "stage": {
+        "x": 0,
+        "y": 144,
+        "width": 964.796875,
+        "height": 666,
+        "top": 144,
+        "right": 964.796875,
+        "bottom": 810,
+        "left": 0
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          9,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          18,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    },
+    {
+      "loaded": true,
+      "active": 3,
+      "progress": 3,
+      "raw": 3,
+      "error": null,
+      "failed": false,
+      "frames": 177,
+      "quality": "desktop",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 60,
+      "adaptiveDPR": 1,
+      "drawCalls": 162,
+      "camera": [
+        0.8452714721727846,
+        0.36410984037422756,
+        0.7847486922152953
+      ],
+      "stage": {
+        "x": 446.390625,
+        "y": 117,
+        "width": 1036.796875,
+        "height": 729,
+        "top": 117,
+        "right": 1483.1875,
+        "bottom": 846,
+        "left": 446.390625
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    },
+    {
+      "loaded": true,
+      "active": 4,
+      "progress": 4,
+      "raw": 4,
+      "error": null,
+      "failed": false,
+      "frames": 241,
+      "quality": "desktop",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 60,
+      "adaptiveDPR": 1,
+      "drawCalls": 118,
+      "camera": [
+        -0.3692168503987577,
+        0.3930731211206625,
+        0.9230651404339862
+      ],
+      "stage": {
+        "x": 0,
+        "y": 243,
+        "width": 1440,
+        "height": 558,
+        "top": 243,
+        "right": 1440,
+        "bottom": 801,
+        "left": 0
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    },
+    {
+      "loaded": true,
+      "active": 5,
+      "progress": 5,
+      "raw": 5,
+      "error": null,
+      "failed": false,
+      "frames": 302,
+      "quality": "desktop",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 60,
+      "adaptiveDPR": 1,
+      "drawCalls": 118,
+      "camera": [
+        1.2347966328684343e-10,
+        0.3817577343390447,
+        1.1270356559689132
+      ],
+      "stage": {
+        "x": 0,
+        "y": 261,
+        "width": 1440,
+        "height": 441,
+        "top": 261,
+        "right": 1440,
+        "bottom": 702,
+        "left": 0
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "desktop",
+      "meshCount": 21,
+      "triangles": 455467,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21
+    }
+  ],
+  "mobile": [
+    {
+      "loaded": true,
+      "active": 0,
+      "progress": 0,
+      "raw": 0,
+      "error": null,
+      "failed": false,
+      "frames": 3,
+      "quality": "mobile",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 0,
+      "adaptiveDPR": 1,
+      "drawCalls": 43,
+      "camera": [
+        0,
+        0.7873834501406871,
+        2.112638925779271
+      ],
+      "stage": {
+        "x": -46.796875,
+        "y": 320.71875,
+        "width": 483.59375,
+        "height": 371.359375,
+        "top": 320.71875,
+        "right": 436.796875,
+        "bottom": 692.078125,
+        "left": -46.796875
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 118,
+          "width": 219.96875,
+          "height": 102.9375,
+          "top": 118,
+          "right": 241.96875,
+          "bottom": 220.9375,
+          "left": 22
+        },
+        "canvas": {
+          "x": -46.796875,
+          "y": 320.71875,
+          "width": 483.59375,
+          "height": 371.359375,
+          "top": 320.71875,
+          "right": 436.796875,
+          "bottom": 692.078125,
+          "left": -46.796875
+        },
+        "controls": [
+          {
+            "x": 22,
+            "y": 701.171875,
+            "width": 164,
+            "height": 50,
+            "top": 701.171875,
+            "right": 186,
+            "bottom": 751.171875,
+            "left": 22
+          }
+        ]
+      }
+    },
+    {
+      "loaded": true,
+      "active": 1,
+      "progress": 1,
+      "raw": 1,
+      "error": null,
+      "failed": false,
+      "frames": 28,
+      "quality": "mobile",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 30,
+      "adaptiveDPR": 1,
+      "drawCalls": 43,
+      "camera": [
+        1.0420876375052748,
+        0.7847209907689833,
+        1.4473439409795483
+      ],
+      "stage": {
+        "x": -39,
+        "y": 362.90625,
+        "width": 468,
+        "height": 337.59375,
+        "top": 362.90625,
+        "right": 429,
+        "bottom": 700.5,
+        "left": -39
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 138.390625,
+          "width": 346,
+          "height": 89.65625,
+          "top": 138.390625,
+          "right": 368,
+          "bottom": 228.046875,
+          "left": 22
+        },
+        "canvas": {
+          "x": -39,
+          "y": 362.90625,
+          "width": 468,
+          "height": 337.59375,
+          "top": 362.90625,
+          "right": 429,
+          "bottom": 700.5,
+          "left": -39
+        },
+        "controls": [
+          {
+            "x": 22,
+            "y": 701.171875,
+            "width": 164,
+            "height": 50,
+            "top": 701.171875,
+            "right": 186,
+            "bottom": 751.171875,
+            "left": 22
+          }
+        ]
+      }
+    },
+    {
+      "loaded": true,
+      "active": 2,
+      "progress": 2,
+      "raw": 2,
+      "error": null,
+      "failed": false,
+      "frames": 57,
+      "quality": "mobile",
+      "explosion": 1,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 30,
+      "adaptiveDPR": 1,
+      "drawCalls": 43,
+      "camera": [
+        0.19754096921158368,
+        2.0754089631152977,
+        0.9481966522156017
+      ],
+      "stage": {
+        "x": -19.5,
+        "y": 379.796875,
+        "width": 429,
+        "height": 312.265625,
+        "top": 379.796875,
+        "right": 409.5,
+        "bottom": 692.0625,
+        "left": -19.5
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          9,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          18,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 138.390625,
+          "width": 346,
+          "height": 89.65625,
+          "top": 138.390625,
+          "right": 368,
+          "bottom": 228.046875,
+          "left": 22
+        },
+        "canvas": {
+          "x": -19.5,
+          "y": 379.796875,
+          "width": 429,
+          "height": 312.265625,
+          "top": 379.796875,
+          "right": 409.5,
+          "bottom": 692.0625,
+          "left": -19.5
+        },
+        "controls": [
+          {
+            "x": 22,
+            "y": 709.171875,
+            "width": 158,
+            "height": 42,
+            "top": 709.171875,
+            "right": 180,
+            "bottom": 751.171875,
+            "left": 22
+          }
+        ]
+      }
+    },
+    {
+      "loaded": true,
+      "active": 3,
+      "progress": 3,
+      "raw": 3,
+      "error": null,
+      "failed": false,
+      "frames": 90,
+      "quality": "mobile",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 30,
+      "adaptiveDPR": 1,
+      "drawCalls": 44,
+      "camera": [
+        1.0165348214290815,
+        0.47401696630674905,
+        0.9750416494338864
+      ],
+      "stage": {
+        "x": -19.5,
+        "y": 379.796875,
+        "width": 429,
+        "height": 320.71875,
+        "top": 379.796875,
+        "right": 409.5,
+        "bottom": 700.515625,
+        "left": -19.5
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 138.390625,
+          "width": 346,
+          "height": 89.65625,
+          "top": 138.390625,
+          "right": 368,
+          "bottom": 228.046875,
+          "left": 22
+        },
+        "canvas": {
+          "x": -19.5,
+          "y": 379.796875,
+          "width": 429,
+          "height": 320.71875,
+          "top": 379.796875,
+          "right": 409.5,
+          "bottom": 700.515625,
+          "left": -19.5
+        },
+        "controls": [
+          {
+            "x": 22,
+            "y": 701.171875,
+            "width": 164,
+            "height": 50,
+            "top": 701.171875,
+            "right": 186,
+            "bottom": 751.171875,
+            "left": 22
+          }
+        ]
+      }
+    },
+    {
+      "loaded": true,
+      "active": 4,
+      "progress": 4,
+      "raw": 4,
+      "error": null,
+      "failed": false,
+      "frames": 122,
+      "quality": "mobile",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 30,
+      "adaptiveDPR": 1,
+      "drawCalls": 43,
+      "camera": [
+        -0.8258128454211567,
+        0.7925958945498797,
+        2.0645579042283564
+      ],
+      "stage": {
+        "x": 0,
+        "y": 337.59375,
+        "width": 390,
+        "height": 337.59375,
+        "top": 337.59375,
+        "right": 390,
+        "bottom": 675.1875,
+        "left": 0
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 112,
+          "width": 251.609375,
+          "height": 40.109375,
+          "top": 112,
+          "right": 273.609375,
+          "bottom": 152.109375,
+          "left": 22
+        },
+        "canvas": {
+          "x": 0,
+          "y": 337.59375,
+          "width": 390,
+          "height": 337.59375,
+          "top": 337.59375,
+          "right": 390,
+          "bottom": 675.1875,
+          "left": 0
+        },
+        "controls": [
+          {
+            "x": 204,
+            "y": 701.171875,
+            "width": 164,
+            "height": 50,
+            "top": 701.171875,
+            "right": 368,
+            "bottom": 751.171875,
+            "left": 204
+          }
+        ]
+      }
+    },
+    {
+      "loaded": true,
+      "active": 5,
+      "progress": 5,
+      "raw": 5,
+      "error": null,
+      "failed": false,
+      "frames": 147,
+      "quality": "mobile",
+      "explosion": 0,
+      "detail": 0,
+      "zoom": false,
+      "exploring": false,
+      "yaw": 0,
+      "measuredFPS": 30,
+      "adaptiveDPR": 1,
+      "drawCalls": 43,
+      "camera": [
+        1.0214390696991039e-9,
+        0.6089750614509039,
+        1.957628181498543
+      ],
+      "stage": {
+        "x": -46.796875,
+        "y": 270.078125,
+        "width": 483.59375,
+        "height": 329.15625,
+        "top": 270.078125,
+        "right": 436.796875,
+        "bottom": 599.234375,
+        "left": -46.796875
+      },
+      "roots": {
+        "Roof_Root": [
+          0,
+          0,
+          0
+        ],
+        "Skylight_Root": [
+          0,
+          0,
+          0
+        ],
+        "Facade_Root": [
+          0,
+          0,
+          0
+        ],
+        "Base_Root": [
+          0,
+          0,
+          0
+        ],
+        "Landscape_Root": [
+          0,
+          0,
+          0
+        ]
+      },
+      "modelVariant": "mobile",
+      "meshCount": 21,
+      "triangles": 323755,
+      "bounds": [
+        1.6609999847412111,
+        0.27245178254245783,
+        1.6399983672695222
+      ],
+      "materialNames": [
+        "Glass | blue grey architectural",
+        "Mullions | charcoal aluminium",
+        "Paving joints",
+        "Shell | warm satin white",
+        "Promenade | pale stone",
+        "Foliage 00",
+        "Foliage 01",
+        "Foliage 02",
+        "Foliage 03",
+        "Planting beds | meadow",
+        "Scale figures | neutral",
+        "Tree bark"
+      ],
+      "uvMeshes": 21,
+      "layout": {
+        "overflow": false,
+        "title": {
+          "x": 22,
+          "y": 123,
+          "width": 346,
+          "height": 35.890625,
+          "top": 123,
+          "right": 368,
+          "bottom": 158.890625,
+          "left": 22
+        },
+        "canvas": {
+          "x": -46.796875,
+          "y": 270.078125,
+          "width": 483.59375,
+          "height": 329.15625,
+          "top": 270.078125,
+          "right": 436.796875,
+          "bottom": 599.234375,
+          "left": -46.796875
+        },
+        "controls": [
+          {
+            "x": 98,
+            "y": 664.734375,
+            "width": 194,
+            "height": 50,
+            "top": 664.734375,
+            "right": 292,
+            "bottom": 714.734375,
+            "left": 98
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Mobile emulation on desktop Chrome; real iOS/Android hardware not tested."
+  ],
+  "passed": true
+}

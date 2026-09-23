@@ -1,0 +1,5 @@
+#stage{mask-image:linear-gradient(0deg,transparent,#000 16%,#000 80%,transparent),linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-composite:intersect}
+body[data-chapter="1"] .haze,body[data-chapter="3"] .haze{background:linear-gradient(90deg,#f2f1ea 10%,#f2f1eaf0 27%,transparent 57%),linear-gradient(0deg,#f2f1ea,transparent 40%)}
+body[data-chapter="2"] .haze{background:linear-gradient(270deg,#f2f1ea 15%,#f2f1eaf0 30%,transparent 58%)}
+@media(max-width:760px){body[data-chapter] .haze{background:linear-gradient(0deg,#f2f1ea 3%,transparent 40%,transparent 57%,#f2f1ea 68%)}}
+@media(max-width:760px){#stage{mask-image:linear-gradient(0deg,transparent,#000 30%,#000 80%,transparent),linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}}
